@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Muhammad Touhiduzzaman",
+    "gender": "Male",
+    "contact": "+8801765472894",
+    "address": "Bashundhara R/A",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": 2,
+    "name": "Mayeda Konika",
+    "gender": "Female",
+    "contact": "+8801765472894",
+    "address": "Mirpur",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=female"
+  },
+  {
+    "id": 3,
+    "name": "Tuhin Saud",
+    "gender": "Male",
+    "contact": "+8801765472894",
+    "address": "Chadpur",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": 4,
+    "name": "Marufa Akter Eity",
+    "gender": "Female",
+    "contact": "+8801765472894",
+    "address": "Rampura",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=female"
+  },
+  {
+    "id": 5,
+    "name": "Bappy Das",
+    "gender": "Male",
+    "contact": "+8801765472894",
+    "address": "Mohakhali",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=male"
+  },
+  {
+    "id": 6,
+    "name": "Jhankar Mahbub",
+    "gender": "Male",
+    "contact": "+8801765472894",
+    "address": "USA",
+    "photoUrl": "https://xsgames.co/randomusers/avatar.php?g=male"
+  }
+]

@@ -3,15 +3,19 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config(); // required to use .env file
 
+const userRoute = require("./routes/v1/user.route");
+
 const port = process.env.PORT || 5000;
 
 // Application Level Middleware
 app.use(express.json());
 app.use(cors());
 
+//Routes
+app.use("/api/v1/user", userRoute);
+
 app.get("/", (req, res) => {
   res.status(200).send({
-    status: 200,
     message: "Welcome to random user API server",
     author: {
       name: "Muhammad Touhiduzzaman",
@@ -23,7 +27,6 @@ app.get("/", (req, res) => {
 
 app.all("*", (req, res) => {
   res.status(404).send({
-    status: 404,
     message: "No route found",
   });
 });

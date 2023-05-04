@@ -25,6 +25,18 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/api/v1/", (req, res) => {
+  res.status(200).send({
+    message: "Welcome to random user API V1 server",
+    apiVersion: "v1",
+    author: {
+      name: "Muhammad Touhiduzzaman",
+      email: "touhid4bd@gmail.com",
+      url: "https://touhid-zaman.web.app",
+    },
+  });
+});
+
 app.all("*", (req, res) => {
   res.status(404).send({
     message: "No route found",
